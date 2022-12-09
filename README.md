@@ -7,4 +7,4 @@ features:
 
 2.click on the list once to get a line strike indicating that you have done this task
 
-3. double click on the list to remove the item from the list
+3.double click on the list to remove the item from the list
