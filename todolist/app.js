@@ -6,9 +6,13 @@ addToDoButton.addEventListener("click",function() {
     var paragraph=document.createElement("p");
     paragraph.classList.add("paragraph-styling");
     paragraph.style.border="2px solid black";
+    // paragraph.style.margin="8px";
+    paragraph.style.color="white"
+    paragraph.style.fontSize="22px";
+    paragraph.style.textTransform="uppercase";
     paragraph.innerHTML=inputField.value;
     toDoContainer.appendChild(paragraph);
-    inputField.value="";
+    inputField.value=" ";
     paragraph.addEventListener("click",function(){
         paragraph.style.textDecoration="line-through";
 
@@ -17,7 +21,5 @@ addToDoButton.addEventListener("click",function() {
         toDoContainer.removeChild(paragraph);
 
     })
-
-})
-
    
+})
